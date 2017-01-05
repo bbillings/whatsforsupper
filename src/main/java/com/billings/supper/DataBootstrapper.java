@@ -31,7 +31,7 @@ public class DataBootstrapper {
         mealRepository.save(new Meal("Pizza", "Maybe pepperoni or sausage", pizzaRecipe));
 
         Recipe waffleRecipe = new Recipe();
-        waffleRecipe.setDescription("Leggo my Eggo!");
+        waffleRecipe.setDescription("Make some batter first!");
         recipeRepository.save(waffleRecipe);
         mealRepository.save(new Meal("Waffles", "you know...", waffleRecipe));
     }
