@@ -47,4 +47,8 @@ public class Meal {
     public void setRecipe(Recipe recipe) {
         this.recipe = recipe;
     }
+
+    public long getId() {
+        return id;
+    }
 }
